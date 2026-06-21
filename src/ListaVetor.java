@@ -53,7 +53,7 @@ public class ListaVetor <T> implements Lista <T>{
         }
 
         this.tamanho--;
-        this.itens[this.tamanho] = new;
+        this.itens[this.tamanho] = null;
 
         return removido;
     }
