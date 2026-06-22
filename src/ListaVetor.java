@@ -75,4 +75,22 @@ public class ListaVetor <T> implements Lista <T>{
     public int size() {
         return this.tamanho;
     }
+
+    public String toString(){
+        String texto = "";
+
+        for (int i = 0; i < tamanho; i++){
+            texto += itens[i];
+
+            if (i != tamanho -1){
+                texto += ", ";
+            }
+        }
+        return texto;
+    }
+
+    @Override
+    public void imprime(){
+        System.out.println(this);
+    }
 }

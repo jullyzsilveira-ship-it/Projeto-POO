@@ -5,6 +5,7 @@ public interface Lista <T>{
     T get(int pos);
     T remove(int pos);
     boolean remove (T valor);
+    void imprime();
 
     int size();
 }
