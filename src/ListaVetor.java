@@ -76,6 +76,7 @@ public class ListaVetor <T> implements Lista <T>{
         return this.tamanho;
     }
 
+    @Override
     public String toString(){
         String texto = "";
 
